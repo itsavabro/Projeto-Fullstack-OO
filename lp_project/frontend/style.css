@@ -1,0 +1,91 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definindo estilo geral */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #4a148c;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #6200ea, #7e57c2);
+    border-radius: 30px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+a:hover {
+    background: linear-gradient(135deg, #7e57c2, #6200ea);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+input:focus {
+    border-color: #7e57c2;
+    outline: none;
+}
+
+button {
+    padding: 15px;
+    border: none;
+    background: linear-gradient(135deg, #6200ea, #7e57c2);
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #7e57c2, #6200ea);
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+.container a {
+    margin: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #555;
+}
